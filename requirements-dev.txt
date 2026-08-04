@@ -18,3 +18,4 @@ tqdm
 ipython
 ipykernel         # necesario para registrar ds-venv como kernel de Jupyter/VS Code
 jupyter           # necesario si quieres correr notebooks fuera de VS Code también
+pyarrow            # necesario para leer/escribir .parquet (pandas no lo trae incluido)
