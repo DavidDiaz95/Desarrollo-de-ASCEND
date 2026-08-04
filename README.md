@@ -141,8 +141,8 @@ resultados y conclusiones) está en
 
 ---
 
-**Variables de entorno:** los notebooks que usan OpenAI o Spoonacular
-esperan un archivo `.env` en la raíz (no incluido en el repo, ver
+**Variables de entorno:** los notebooks que usan OpenAI o Spoonacular (https://spoonacular.com/food-api)
+esperan un archivo `.env` en la carpeta de /notebooks (no incluido en el repo, ver
 `.gitignore`) con las llaves correspondientes:
 
 ```
