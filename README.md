@@ -70,7 +70,7 @@ ASCEND-desarrollo/
 │
 ├── Data/
 │   ├── raw/                         # CSV crudos de KSPO (ver instrucciones abajo)
-│   │   └── README_KSPO.md           # cómo descargar el dataset
+│   │   └── README_KSPO_INFO.md           # cómo descargar el dataset
 │   └── processed/                   # datos procesados / checkpoints
 │
 ├── Models/                          # modelos entrenados (.joblib)
@@ -113,7 +113,7 @@ orden dentro de cada bloque:
 Los CSV crudos de KSPO **no están incluidos por defecto** para efectos de
 organización. Instrucciones completas de descarga en:
 
-➡️ [`Data/raw/README_KSPO.md`](Data/raw/README_KSPO.md)
+➡️ [`Data/raw/README_KSPO_INFO.md`](Data/raw/README_KSPO_INFO.md)
 
 En resumen: se descargan desde el
 [Big Data Culture Portal](https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=ace0aea7-5eee-48b9-b616-637365d665c1)
