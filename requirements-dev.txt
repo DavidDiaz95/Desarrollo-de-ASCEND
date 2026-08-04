@@ -1,0 +1,20 @@
+# requirements-dev.txt — dependencias reales de los 12 notebooks de desarrollo
+# (detectadas automáticamente escaneando los imports de cada .ipynb)
+
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+scipy
+umap-learn        # import umap  (notebook 1_4 — interpretación UMAP de clusters)
+rapidfuzz         # notebook 3_1 — match difuso Free Exercise DB
+joblib            # serialización de modelos .joblib
+python-dotenv     # import dotenv — manejo de API keys en .env
+openai            # notebooks 2_1 y 3_1 — visión/LLM
+requests
+tqdm
+ipython
+ipykernel         # necesario para registrar ds-venv como kernel de Jupyter/VS Code
+jupyter           # necesario si quieres correr notebooks fuera de VS Code también

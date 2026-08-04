@@ -1,0 +1,32 @@
+# --- Entorno virtual ---
+ds-venv/
+venv/
+env/
+
+# --- Secrets / API keys ---
+.env
+*.env
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# --- Jupyter ---
+.jupyter/
+
+# --- Datos pesados (súbelos como GitHub Release, no como commit normal) ---
+Data/raw/*.csv
+Data/raw/*.zip
+
+# --- Modelos grandes (si pesan mucho, considera Release o Git LFS) ---
+# Models/*.joblib
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code (opcional, deja settings de proyecto si los quieres compartidos) ---
+.vscode/*
+!.vscode/settings.json
