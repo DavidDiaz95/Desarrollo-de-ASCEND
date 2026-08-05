@@ -79,6 +79,8 @@ ASCEND-desarrollo/
     └── ASCEND_documento_final.pdf   # documento final del diplomado
 ```
 
+1.5 (⚠️ opcional, ~horas — evidencia de selección de modelo; producción se entrena en 1.6).
+
 ## Cómo levantar el entorno
 
 ```bash
